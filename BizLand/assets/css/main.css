@@ -1,0 +1,21 @@
+/*Welcome Home*/
+
+.greeting{
+  margin-top: 50px;
+  width: 100%;
+  min-width: 400px;
+}
+.module{
+  padding: 0px;
+  max-width: 960px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.greeting-text{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  color: #222;
+  font-family: "open sans";
+}

@@ -1,71 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoekStad.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- favicon -->
 
-<?php include('./layouts/head.php'); ?>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./bootstrap_css/css/bootstrap.css">
+    <script src="./bootstrap_js/js/bootstrap.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
+</head>
 <body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="./img/apalah.png" width="250px">
+            </div>
+            <a href="#" class="tombol-menu">
+                <span class="garis"></span>
+                <span class="garis"></span>
+                <span class="garis"></span>
+            </a>
+            <div class="menu">
+                <ul>
+                    <li><a href="" class="dropdown-toggle" data-bs-toggle="dropdown">Browse</a>
+                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    </li>
 
-    <?php include('./layouts/navbar.php'); ?>
+                    <li><a href="" class="dropdown-toggle"  data-bs-toggle="dropdown">Comunity</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    </li>
+
+                    <li><a href="">Search</a></li>
+                    <li><a href=""></a></li>
+
+                    <li><a href="" class="dropdown-toggle"  data-bs-toggle="dropdown">Bahasa Indonesia</a>
+                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    </li>
+
+                    <li><a href="./html/SignUp.php" class="tbl-biru">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="wrapper">
         <!-- untuk home -->
         <section id="home">
-            <img src="../img/intro.png" style="margin: 100px 62px 0 0px; width: 50%;">
+            <img src="./img/luas.png" style="margin: 19px 55px 0 0px; width: 46%;">
             <div class="kolom">
-                <p class="deskripsi">Belajar Programming #dirumahaja</p>
-                <h2>Tetap Sehat, Tetap Semangat</h2>
-                <p class="deskripsi">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, nobis.</p><br><br>
-                <a href="../html/SignUp.php" class="tbl-pink">Start Writing</a>
-                <a href="../html/SignUp.php" class="tbl-pink">Start Reading</a>
+                <h2 class="deskripsi" style="font-size: 60px; font-family: 'Source Sans Pro', sans-serif;">Hi, Ini BoekStad </h2>
+                <h2>Untuk mencari referensi buku terbaik</h2>
+                <p class="deskripsi">Sesuai dengan keinginan anda,Lorem ipsum dolor sit amet consectetur.</p><br>
+                <a href="./html/SignUp.php" class="tbl-pink">Start Writing</a>
+                <a href="./html/SignUp.php" class="tbl-pink">Start Reading</a>
             </div>
         </section>
 
         <!-- See you container -->
-        <div class="seeyoustory">
-            <h3>See You Story...</h3>
-            <div class="itemContainer">
-                <div class="item">
-                    <img src="../img/tv-icon.png" alt="">
-                    Get produced to movie and film
-                </div>
-                <div class="item">
-                    <img src="../img/reel-icon.png" alt="">
-                    Get adapted to a Tv Series
-                </div>
-                <div class="item">
-                    <img src="../img/book-icon.png">
-                    Get Published
-                </div>
+    <div class="seeyoustory">
+        <h3 style="font-family: 'Source Sans Pro', sans-serif; font-weight: 700; color: #222; font-style: bold;">See You Story.</h3>
+        <div class="itemContainer">
+            <div class="item">
+                <img src="./img/tv-icon.png" alt="">
+                Get produced to movie and film
+            </div>
+            <div class="item">
+                <img src="./img/reel-icon.png" alt="">
+                Get adapted to a Tv Series
+            </div>
+            <div class="item">
+                <img src="./img/book-icon.png">
+                Get Published
             </div>
         </div>
+    </div>
 
         <!-- untuk container -->
         <section class="container">
             <div class="kolom">
-                <p class="deskripsi">You Will Need This</p>
-                <h2>Online Courses</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+                <p class="deskripsi"></p>
+                <h2>Membaca Seru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt<br> voluptatibus possimus blanditiis reiciendis. Qui, facilis! <br>Delectus exercitationem dolores sapiente?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt <br>voluptatibus possimus blanditiis reiciendis. Qui, facilis! <br>Delectus exercitationem dolores sapiente?</p>
+                <p><a href="./html/SignUp.php" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
             </div>
-            <img src="../img/gambar2.png" style="margin:  137px 51px 0px 0px ; width: 100%">
+            <img src="./img/gambar1.png" style="margin: 100px 51px 0px 111px ; width: 34%;">
         </section>
 
-        <section class="container left">
+         <section class="container left">
             <div class="kolom">
-                <p class="deskripsi">You Will Need This</p>
-                <h2>Online Courses</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+                <p class="deskripsi"></p>
+                <h2>Membaca Seru</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt<br> voluptatibus possimus blanditiis reiciendis. Qui, facilis! <br>Delectus exercitationem dolores sapiente?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt <br>voluptatibus possimus blanditiis reiciendis. Qui, facilis! <br>Delectus exercitationem dolores sapiente?</p>
+                <p><a href="./html/SignUp.php" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
             </div>
-            <img src="../img/gambar2.png" style="margin:  137px 51px 0px 0px ; width: 100%">
+            <img src="./img/gambar1.png" style="margin: 100px 51px 0px 111px ; width: 34%;">
         </section>
 
         <!-- Find Out More-->
 
         <div id="FindOutMore">
-            <a href="">
+            <a href="./html/SignUp.php">
                 <h4>Find out about what we do for writers</h4>
             </a>
         </div>
@@ -76,7 +135,7 @@
                 <h2>Bagaimana BoekStad Berjalan</h2>
                 <p>Get your story discovered through the power of community and technology on BoekStad</p>
             </div>
-        </div>
+           </div>
 
 
         <!-- steps1 -->
@@ -91,27 +150,27 @@
                         </p>
                     </div>
                 </div>
-                <!-- dots1 -->
+        <!-- dots1 -->
 
-                <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
 
-                <!-- bubble1-->
-                <div class="bubble">
-                    <div>
-                        <div class="count">50+</div>
-                        <div class="title">Writing Resource</div>
-                    </div>
-                </div>
+        <!-- bubble1-->
+        <div class="bubble">
+            <div>
+                <div class="count">50+</div>
+                <div class="title">Writing Resource</div>
             </div>
-            <!-- steps2 -->
-            <div class="stepContainer">
+        </div>
+    </div>
+        <!-- steps2 -->
+        <div class="stepContainer">
                 <div class="step">
                     <h2 class="number" style="font-size: 100px; color: #222; line-height: normal; margin-right: 27px; font-weight: 700;">2</h2>
                     <div>
@@ -121,27 +180,27 @@
                         </p>
                     </div>
                 </div>
-                <!-- dots2 -->
+        <!-- dots2 -->
 
-                <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
 
-                <!-- bubble2-->
-                <div class="bubble2">
-                    <div>
-                        <div class="count">50+</div>
-                        <div class="title">Writing Resource</div>
-                    </div>
-                </div>
+        <!-- bubble2-->
+        <div class="bubble2">
+            <div>
+                <div class="count">50+</div>
+                <div class="title">Writing Resource</div>
             </div>
-            <!-- steps3 -->
-            <div class="stepContainer">
+        </div>
+    </div>
+        <!-- steps3 -->
+        <div class="stepContainer">
                 <div class="step">
                     <h3 class="number" style="font-size: 100px; color: #222; line-height: normal; margin-right: 27px; font-weight: 700;">3</h3>
                     <div>
@@ -151,28 +210,28 @@
                         </p>
                     </div>
                 </div>
-                <!-- dots3 -->
+        <!-- dots3 -->
 
-                <div class="dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-
-                <!-- bubble3-->
-                <div class="bubble3">
-                    <div>
-                        <div class="count">50+</div>
-                        <div class="title">Writing Resource</div>
-                    </div>
-                </div>
-            </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
 
-        <!-- carousel-->
+        <!-- bubble3-->
+        <div class="bubble3">
+            <div>
+                <div class="count">50+</div>
+                <div class="title">Writing Resource</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- carousel-->
 
         <!----- <div id="slider">
             <input type="radio" name="slider" id="slide1" checked>
@@ -232,7 +291,7 @@
                     <div class="links">
                         <div class="link">
                             <div class="image">
-                                <img src="../img/avatar1.png">
+                                <img src="./img/avatar1.png">
                             </div>
                             <div class="info">
                                 <h4>Lorem ipsum</h4>
@@ -242,7 +301,7 @@
 
                         <div class="link">
                             <div class="image">
-                                <img src="../img/avatar2.png">
+                                <img src="./img/avatar2.png">
                             </div>
                             <div class="info">
                                 <h4>Lorem ipsum</h4>
@@ -252,7 +311,7 @@
 
                         <div class="link">
                             <div class="image">
-                                <img src="../img/avatar3.png">
+                                <img src="./img/avatar3.png">
                             </div>
                             <div class="info">
                                 <h4>Lorem ipsum</h4>
@@ -261,33 +320,87 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-<<<<<<< HEAD
-            </div>
-        </div>
-=======
-
-        <!-- FooterTake -->
-        <div id="TakeWP">
-            <div class="content">
-                <h3 style="text-align: center;">Take Boekstad With You</h3>
-                <p style="margin-bottom: 20px; color: #222;">
-                    Read and write anywhere, even offline
-                </p>
-                <div class="buttons">
-                    <a href="" class="tbl-pink">Start Writing</a>
-                    <a href="" class="tbl-pink">Start Reading</a>
                 </div>
-                <img src="../img/footer.png">
->>>>>>> a83deda7e744188775a65bb1c78955cb31a78be1
+                </div>
+
+                        <!-- FooterTake -->
+                        <div id="TakeWP">
+                            <div class="content">
+                                <h3 style="text-align: center;">Take Boekstad With You</h3>
+                                <p style="margin-bottom: 20px; color: #222;">
+                                    Read and write anywhere, even offline
+                                </p>
+                                <div class="buttons">
+                                    <a href="./html/SignUp.php" class="tbl-pink">Start Writing</a>
+                                    <a href="./html/SignUp.php" class="tbl-pink">Start Reading</a>
+                                </div>
+                                <img src="./img/footer.png">
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- Footer  -->
+                        <footer id="footer-container">
+                            <footer id="footer">
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="" style="margin-left: 90px;">Paid Stories</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Try Premium</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Get the App</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Langunge</a>
+                                    </li>
+                                    <li>
+                                        <a href="" style="margin-right: 16px;">Writers</a>
+                                    </li>
+
+                                    <li>|</li>
+
+                                    <li>
+                                        <a href="">Busines</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Press</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Paid Stories</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="footer-legal">
+                                    <li>
+                                        <a href="">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Privacy</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Accessibility</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Help</a>
+                                    </li>
+                                    <li>© 2021 Boekstad</li>
+                                </ul>
+                            </footer>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
             </div>
         </div>
     </div>
-
-    <!-- Footer  -->
-    <<?php include('./layouts/footer.php'); ?>
-
 </body>
-
 </html>

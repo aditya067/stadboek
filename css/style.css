@@ -2,7 +2,6 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 body {
     margin: 0px;
@@ -15,17 +14,9 @@ body {
     margin: auto;
     position: relative;
 }
-
-.logo a {
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    font-family: courier;
-    color: #364f6b;
-    background: white;
-    text-decoration: none;
+.logo{
+    float: left ;
 }
-
 .menu {
     float: right;
 }
@@ -36,8 +27,7 @@ nav {
     line-height: 80px;
     top: 0;
     background: #FFFFFF;
-    z-index: 1;
-    border-bottom:1px solid #364f6b;
+    z-index: 1; 
 }
 
 nav ul {
@@ -72,6 +62,7 @@ section {
 .kolom {
     margin-top: 50px;
     margin-bottom: 0px;
+    margin-left: 102px;
 }
 
 .kolom .deskripsi {
@@ -80,7 +71,9 @@ section {
     font-family: 'comic sans ms';
     color: #364f6b;
 }
-
+#home{
+    margin-top: 45px;
+}
 h2 {
     font-family: 'comic sans ms';
     font-weight: 800;
@@ -92,7 +85,7 @@ h2 {
 }
 
 a.tbl-biru {
-    background: #3f72af;
+    background: #ff6122;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -103,12 +96,13 @@ a.tbl-biru {
 }
 
 a.tbl-biru:hover {
-    background: #fc5185;
+    background: #brown;
     text-decoration: none;
+    color: white;
 }
 
 a.tbl-pink {
-    background: #fc5185;
+    background: #ff6122;
     border-radius: 6px;
     margin: 3px 5px;
     padding: 15px 35px;
@@ -122,6 +116,7 @@ a.tbl-pink {
 a.tbl-pink:hover {
     background: #3f72af;
     text-decoration: none;
+    color: white;
 }
 
 p {
@@ -179,7 +174,6 @@ h3 {
 }
 .container .left{
     max-width: 896px;
-    translate: ;
 }
 #FindOutMore{
     margin: 125px 0;
@@ -443,9 +437,11 @@ h3 {
     width: 309px;
     display: block;
 }
-.link .image::after{
+#GetDiscover .link .image:after{
     right: 0;
     background-color: #00b2b2;
+}
+.link .image:after{
     width: 295px;
     height: 295px;
     position: absolute;

@@ -44,7 +44,7 @@
                     </li>
                     <li><a class="dropdown-item" href="#">Separated link</a></li>
                 </ul>
-                <li><a href="../html/SignUp.php" class="tbl-biru">Sign Up</a></li>
+                <li><a href="auth/signup.php" class="tbl-biru">Sign Up</a></li>
             </ul>
         </div>
     </div>

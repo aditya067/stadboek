@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/SignUp.css" />
-    <title>Register & Login</title>
+    <title>Sign in & Sign up Form</title>
   </head>
   <body>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
-            <h2 class="title">Sign In</h2>
+            <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Username" />
@@ -24,7 +21,6 @@
               <i class="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
             </div>
-
             <a href="../BizLand/index.php" class="btn solid" style="text-align: center; padding: 14px 0 10px 0; text-decoration: none; font-size: 13px;">login</a>
             <p class="social-text">Or Sign in with social platforms</p>
             <div class="social-media">
@@ -43,7 +39,7 @@
             </div>
           </form>
           <form action="#" class="sign-up-form">
-            <h2 class="title">Register</h2>
+            <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Username" />
@@ -85,7 +81,7 @@
               ex ratione. Aliquid!
             </p>
             <button class="btn transparent" id="sign-up-btn">
-              Register
+              Sign up
             </button>
           </div>
           <img src="img/log.svg" class="image" alt="" />
